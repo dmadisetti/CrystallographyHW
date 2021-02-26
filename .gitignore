@@ -2,3 +2,6 @@
 *info
 *log
 .prp
+*.tmp
+*.ins
+shelxs.res
