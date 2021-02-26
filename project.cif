@@ -1,0 +1,89 @@
+#\#CIF_1.1
+# This file contains all project details and should be used
+# with SHELX refinement cif to create an archive cif for deposit
+##
+
+_audit_creation_method                  'WinGX routine-PROJECT INFO'
+_audit_creation_date                    2021-02-26T17:40:44-00:00
+#-
+#------------- 1. Data collection & reduction  -------------------------#
+
+_diffrn_radiation_type                  'Mo K\a'
+_diffrn_radiation_probe                 x-ray
+_diffrn_radiation_wavelength            0.71073
+_diffrn_standards_number                0
+_diffrn_standards_interval_time         .
+_diffrn_standards_interval_count        .
+_diffrn_standards_decay_%               ?
+_diffrn_reflns_limit_h_min              -25
+_diffrn_reflns_limit_h_max              29
+_diffrn_reflns_limit_k_min              -12
+_diffrn_reflns_limit_k_max              12
+_diffrn_reflns_limit_l_min              -18
+_diffrn_reflns_limit_l_max              13
+_diffrn_reflns_theta_min                2.001
+_diffrn_reflns_theta_max                25.186
+_diffrn_reflns_av_unetI/netI            0.1058
+_diffrn_reflns_number                   19253
+_diffrn_reflns_number_extinctions       0
+_diffrn_reflns_number_accepted          0
+_diffrn_reflns_number_rejected          0
+_diffrn_ambient_temperature             110(2)
+_computing_data_collection              ?
+_computing_cell_refinement              ?
+_computing_data_reduction               ?
+#-
+#------------- 2. Information on crystal  ------------------------------#
+
+
+_exptl_crystal_description              ?
+_exptl_crystal_colour                   ?
+_exptl_crystal_size_max                 0
+_exptl_crystal_size_mid                 0
+_exptl_crystal_size_min                 0
+_exptl_crystal_density_method           'not measured'
+_exptl_crystal_F000                     0
+
+#-
+#------------- 3. Unit Cell Parameters  --------------------------------#
+
+_cell_length_a                          24.4603(9)
+_cell_length_b                          10.1791(3)
+_cell_length_c                          15.4796(6)
+_cell_angle_alpha                       90
+_cell_angle_beta                        90
+_cell_angle_gamma                       90
+_cell_volume                            3854.2(2)
+_cell_measurement_temperature           0(2)
+_cell_measurement_wavelength            0.71073
+_cell_measurement_reflns_used           0
+_cell_measurement_theta_max             0
+_cell_measurement_theta_min             0
+#-
+#------------- 4. Absorption correction  -------------------------------#
+
+_exptl_absorpt_coefficient_mu           0.001
+_exptl_absorpt_correction_type          none
+#-
+#------------- 5. Structural & chemical information  -------------------#
+loop_
+    _atom_type_symbol
+    _atom_type_number_in_cell
+C 4
+
+_cell_formula_units_Z                   4
+_chemical_formula_moiety                ?
+_chemical_formula_sum                   C
+_chemical_compound_source               ?
+_space_group_crystal_system             orthorhombic
+_space_group_name_H-M_alt               Pbcn
+_space_group_name_Hall                 '-P 2n 2ab'
+_space_group_IT_number                  60
+_computing_structure_solution          'SHELXS-2013 (Sheldrick, 2008)'
+_computing_structure_refinement        'SHELXL-2013 (Sheldrick, 2015)'
+_computing_molecular_graphics          'ORTEP-3 for Windows (Farrugia, 2012)'
+_computing_publication_material        'WinGX publication routines (Farrugia, 2012)'
+_atom_sites_solution_primary            ?
+_atom_sites_solution_secondary          ?
+_refine_ls_number_constraints           0
+_refine_ls_number_restraints            0
